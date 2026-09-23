@@ -96,6 +96,14 @@
     z-index: 2;
     color: white;
 }
+.main-container p{
+    font-size: 25px;
+}
+@media (max-width:375px){
+.main-container p{
+    font-size: 17px;
+}
+}
 .title{
     font-size: 50px;
 }
@@ -201,7 +209,7 @@
     position: relative;
     top: 10%;
     z-index: 2;
-    padding: 30px;
+    
 }
 @media (max-width:1200px){
     .image-container-2{
@@ -215,7 +223,12 @@
         width: 100%;
     }
     .about-column img{
-        width: 95%;
+        width: 100%;
+    }
+}
+@media (max-width:375px){
+    .about-column{
+        padding-left: 10px;
     }
 }
 .image-column {
@@ -226,43 +239,24 @@
 }
 
 .section-container-2{
-    /* height: 100vh; */
+  
     height: auto;
     width: 100%;
 }
-@media (max-width:1200px) {
-.section-container-2{
-    padding: 40px;
-    /* height: 80vh; */
-}
-}
-@media (max-width:768px){
-    /* .section-container-2{
-        height: 120vh;
 
-    } */
+@media (max-width:768px){
+   
     .card-1{
         margin-bottom: 10px;
     }
 }
 @media (max-width:576px){
-    /* .section-container-2{
-        height: 120vh;
-
-    } */
+  
     .card-1{
         margin-bottom: 10px;
     }
 }
-@media (max-width:375px){
-    /* .section-container-2{
-        height: 155vh;
 
-    } */
-    /* .card-1{
-        margin-bottom: 10px;
-    } */
-}
 .choose-restaurant{
     z-index: 2;
 }
@@ -288,26 +282,6 @@
 .section-container-3{
      height: auto;
     width: 100%; 
-}
-@media (max-width:1200px) {
-    /* .section-container-3{
-        height: 105vh;
-    } */
-}
-@media (max-width:768px) {
-    /* .section-container-3{
-        height: 205vh;
-    } */
-}
-@media (max-width:576px) {
-    /* .section-container-3{
-        height: 170vh;
-    } */
-}
-@media (max-width:375px) {
-    /* .section-container-3{
-        height: 205vh;
-    } */
 }
 .food-navs{
     display: flex;
@@ -339,7 +313,7 @@
     padding-top: 30px;
 }
 .section-container-4{
-    /* height: 100vh; */
+    
     width: 100%;
     background-color: black;
     color: white;
@@ -348,21 +322,8 @@
 .section-container-4 img{
     border-radius: 50%;
 }
-@media (max-width:1200px){
-    /* .section-container-4{
-        height: 90vh;
-    } */
-}
-@media (max-width:576px){
-    /* .section-container-4{
-        height: 140vh;
-    } */
-}
-/* @media (max-width:375px){
-    .section-container-4{
-        height: 140vh;
-    }
-} */
+
+
 .special-container {
     border-right: 3px solid goldenrod;
     width: 200%; 
@@ -412,9 +373,7 @@
     gap: 50px;
 }
  @media (max-width:768px){
-    /* .section-container-4{
-        height: 140vh;
-    } */
+   
      .special-container{
         width: 105%;
     }
@@ -426,25 +385,20 @@
     display: flex;
     flex-direction: column;
     gap: 55px;
-    /* height: 200vh; */
+
 }
 } 
- @media (max-width:375px){
-    /* .section-container-4
-    {
-    height:180vh ;
-    } */
- }
+
 @media (max-width:576px) {
 .row-container{
     display: flex;
     flex-direction: column;
     gap: 55px;
-    /* height: 200vh; */
+    
 }
 }
 .image-container-3{
-    /* height: 100vh; */
+   
     width: 100%;
     background-image:url(./images/parties-img.jpg);
     background-repeat: no-repeat;
@@ -459,11 +413,7 @@
     background: rgba(0, 0, 0, 0.80);
     z-index: 1;
 }
-@media (max-width:1200px){
-    /* .image-container-3{
-        height: 100vh;
-    } */
-}
+
 .parties-container{
     position: relative;
     z-index: 2;
@@ -505,34 +455,23 @@
     transition: opacity .6s ease;
 }
 .section-container-5{
-    /* height: 100vh; */
-    width: 100%;
-    /* background-color: black; */
+    width: 100%; 
 }
-    /* .image-container-3{
-    height: 160vh;
-    } */
-
+   
  @media (max-width:576px){
     .section-container-5 img{
     height: 300px;
     width: 300px;
     }
-    /* .image-container-3{
-    height: 130vh;
-} */
+
 } 
 .section-container-6{
-    /* height: 100vh; */
+  
     width: 100%;
     background-color: black;
     color: white;
 }
-@media (max-width:1200px){
-    .section-container-6{
-        /* height: 90vh; */
-    }
-}
+
 @media (max-width:768px) {
 
     .section-container-6 button{
@@ -544,7 +483,6 @@
 .form-control::placeholder {
     color: gray;
     
-    /* background-color: black; */
 }
 .form-control{
     color: gray;
@@ -570,7 +508,7 @@
     color: black;
 }
 .section-container-7{
-    /* height: 100vh; */
+    
     width: 100%;
    background-color: black;
 }
@@ -595,7 +533,7 @@
     padding-bottom: 3rem;
 }
 .section-container-8{
-    /* height: 130vh; */
+   
     width: 100%;
      background-color: black; 
     color: white;
@@ -612,7 +550,7 @@
 {
     .section-container-8{
     padding-top: 40px;
-    /* height: 360vh; */
+   
     }
     .card-2{
    height: 80%;
@@ -626,20 +564,18 @@
     transform: scale(1.03);
 }
 .section-container-9{
-    /* height: 100vh; */
+   
     width: 100%;
     background-color: black;  
 }
 @media (max-width:1200px){
     .section-container-9{
-        /* height: 100vh; */
+       
         padding: 50px;
     }
 }
 @media (max-width:768px){
-    .section-container-9{
-        /* height: 210vh; */
-    }
+   
     .section-container-9 img{
   
     margin-bottom: 20px;
@@ -647,9 +583,7 @@
 }
 
 @media (max-width:576px){
-    .section-container-9{
-        /* height: 135vh; */
-    }
+   
     .chef-container img{
     height: 200px;
     width: 200px;
@@ -673,30 +607,13 @@
     top: 0;
     left: 0;
 }
-  /* .media-chef{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    top: 30%;
-    left: 30%;
-    color: white;
-    transition: 0.5s ease;
-    transform: translateY(100px);
-    opacity: 0;
-} */
+ 
 } 
 .chef-container{
     position: relative;
     overflow: hidden;
 }
-/* .chef-container::after{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.55);
-    z-index: 1;
-} */
+
 .media-chef{
     display: flex;
     flex-direction: column;
@@ -727,7 +644,7 @@
     opacity: 1;
 }
 .section-container-10{
-    /* height: 180vh; */
+  
     width: 100%;
     background-color: black;
     color: white;
@@ -759,7 +676,7 @@
 
  .form-color::placeholder{
     color: rgb(121, 96, 35);
-    /* border: 1px solid  goldenrod; */
+   
  }
 .form-color{
     border-color: rgb(88, 73, 32);
@@ -772,7 +689,7 @@
     background-color: rgb(145, 118, 49);
 }
 .footer-container{
-    /* height: 70vh; */
+  
     width: 100%;
     background-color: black;
     color: white;
@@ -798,22 +715,7 @@
     height: 100%;
     background-color: rgb(172, 137, 49);
 }
-@media (max-width:768px){
-  /* .footer-container{
-    height: 150vh;
-  } */
-    /* .subscribe-btn input{
-        width: 115%;
-    }
-    .subscribe-btn button{
-    position: absolute;   
-    top: 0;
-    left: 85%;
-    width: 30%;
-    height: 100%;
-    background-color: rgb(172, 137, 49);
-} */
-}
+
 @media (max-width:576px){
 
     .subscribe-btn input{
